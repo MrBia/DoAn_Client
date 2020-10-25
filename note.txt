@@ -1,0 +1,7 @@
+use client server:
++ copy file socketIO from templeruins old
+
+
+
+error:
+LNK2019 LNK2019	unresolved external symbol "__declspec(dllimport) public: void __thiscall cocos2d::network::SIOClient::on(class std::basic_string

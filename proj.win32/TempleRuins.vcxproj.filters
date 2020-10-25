@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\ResourceManager.cpp" />
+    <ClCompile Include="..\Classes\ControlMusic.cpp" />
+    <ClCompile Include="..\Classes\Diamond.cpp" />
+    <ClCompile Include="..\Classes\FightHammer.cpp" />
+    <ClCompile Include="..\Classes\Fire.cpp" />
+    <ClCompile Include="..\Classes\GamePlay.cpp" />
+    <ClCompile Include="..\Classes\GamePlay2.cpp" />
+    <ClCompile Include="..\Classes\Glass.cpp" />
+    <ClCompile Include="..\Classes\Glass2.cpp" />
+    <ClCompile Include="..\Classes\MapGame.cpp" />
+    <ClCompile Include="..\Classes\MiniGameScene.cpp" />
+    <ClCompile Include="..\Classes\Objject.cpp" />
+    <ClCompile Include="..\Classes\Item_game.cpp" />
+    <ClCompile Include="..\Classes\Keys.cpp" />
+    <ClCompile Include="..\Classes\LoadingLogo.cpp" />
+    <ClCompile Include="..\Classes\MainCharactor.cpp" />
+    <ClCompile Include="..\Classes\MainMenu.cpp" />
+    <ClCompile Include="..\Classes\Rock.cpp" />
+    <ClCompile Include="..\Classes\SneakyJoystick.cpp" />
+    <ClCompile Include="..\Classes\SneakyJoystickSkinnedBase.cpp" />
+    <ClCompile Include="..\Classes\Spider.cpp" />
+    <ClCompile Include="..\Classes\TestMapScene1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\ResourceManager.h" />
+    <ClInclude Include="..\Classes\ControlMusic.h" />
+    <ClInclude Include="..\Classes\Defines.h" />
+    <ClInclude Include="..\Classes\Diamond.h" />
+    <ClInclude Include="..\Classes\FightHammer.h" />
+    <ClInclude Include="..\Classes\Fire.h" />
+    <ClInclude Include="..\Classes\GamePlay.h" />
+    <ClInclude Include="..\Classes\GamePlay2.h" />
+    <ClInclude Include="..\Classes\Glass.h" />
+    <ClInclude Include="..\Classes\Glass2.h" />
+    <ClInclude Include="..\Classes\MainMenu.h" />
+    <ClInclude Include="..\Classes\MapGame.h" />
+    <ClInclude Include="..\Classes\MiniGameScene.h" />
+    <ClInclude Include="..\Classes\Objject.h" />
+    <ClInclude Include="..\Classes\Item_game.h" />
+    <ClInclude Include="..\Classes\Keys.h" />
+    <ClInclude Include="..\Classes\LoadingLogo.h" />
+    <ClInclude Include="..\Classes\MainCharactor.h" />
+    <ClInclude Include="..\Classes\Rock.h" />
+    <ClInclude Include="..\Classes\SneakyJoystick.h" />
+    <ClInclude Include="..\Classes\SneakyJoystickSkinnedBase.h" />
+    <ClInclude Include="..\Classes\Spider.h" />
+    <ClInclude Include="..\Classes\TestMapScene1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

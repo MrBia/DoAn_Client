@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="31" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="252">
+ <tileset firstgid="1" source="tileset2.tsx"/>
+ <layer id="1" name="Background" width="31" height="22">
+  <data encoding="csv">
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
+</data>
+ </layer>
+ <layer id="5" name="physics" width="31" height="22" opacity="0.05">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,0,6,6,6,6,6,6,6,6,
+0,0,0,0,0,0,6,6,6,6,6,0,0,0,0,6,6,0,0,0,0,0,0,0,0,6,0,0,0,0,0,
+6,6,6,6,6,6,0,0,0,0,0,6,6,6,6,0,6,6,0,0,0,0,0,0,0,6,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,0,6,0,0,0,0,0,
+6,6,6,6,6,6,6,6,0,6,6,0,6,6,0,6,6,0,6,0,6,0,0,6,0,6,0,0,0,0,0,
+0,0,0,0,0,0,0,0,6,0,0,6,0,0,6,0,0,6,6,0,6,0,6,0,0,6,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,0,0,0,6,0,6,0,6,6,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,6,0,6,0,6,0,6,0,0,0,0,0,0,
+6,6,6,6,6,6,6,6,6,6,6,6,0,0,6,6,0,0,6,6,0,6,0,0,6,0,0,0,0,0,0,
+6,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,6,6,0,0,0,6,0,0,6,0,0,0,0,0,0,
+6,6,0,0,0,0,0,0,0,0,6,0,6,6,0,0,0,0,0,6,0,6,0,0,6,0,0,0,0,0,0,
+0,6,0,0,0,0,0,6,6,6,0,6,0,0,0,0,0,0,6,0,6,6,0,6,6,0,0,0,0,0,0,
+0,6,0,6,0,0,0,0,6,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,6,0,0,0,0,0,
+0,6,0,6,6,6,6,6,6,6,6,6,6,6,0,0,0,0,6,0,0,0,6,6,6,0,0,0,0,0,0,
+0,6,0,0,0,0,6,6,0,0,0,0,0,0,6,6,6,6,6,0,0,6,0,0,0,0,0,0,0,0,0,
+0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,
+0,0,6,0,0,0,0,6,0,6,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,0,6,6,6,0,6,0,0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,6,0,0,0,6,6,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="MapLv2" width="31" height="22">
+  <data encoding="csv">
+8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,1073741854,3221225486,3221225486,3221225486,3221225486,3221225486,3221225486,1073741838,1073741838,1073741838,
+8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,2684354574,0,0,0,0,0,0,0,0,0,
+1073741832,1073741832,1073741832,1073741832,1073741832,1073741832,1073741832,1073741832,8,8,8,8,8,8,8,8,1073741854,1073741838,1073741838,1073741838,1073741838,1073741846,0,38,46,14,14,14,14,14,14,
+1073741832,1073741832,1073741832,1073741832,1073741832,2684354590,1073741838,1073741838,1073741838,1073741838,1073741838,536870942,8,8,1073741854,1073741838,2684354574,0,0,0,0,0,0,0,0,1610612750,8,8,8,8,8,
+1073741838,1073741838,1073741838,1073741838,1073741838,1073741846,0,0,0,0,0,3221225494,1073741838,1073741838,1073741846,0,3221225494,2147483686,0,0,0,0,0,0,0,1610612750,8,8,8,8,8,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483670,14,14,3758096406,0,1610612750,8,8,8,8,8,
+14,14,14,14,14,14,14,22,0,2147483670,22,0,2147483670,22,0,2147483670,22,0,2684354598,0,536870926,8,8,2684354582,0,536870926,8,8,8,8,8,
+8,8,8,8,8,8,8,30,14,2147483678,30,14,2147483678,30,14,2147483678,30,46,2684354582,0,536870926,8,2684354574,0,0,536870926,8,8,8,8,8,
+8,8,8,8,8,8,8,8,8,8,8,8,1073741854,1073741838,1073741838,1073741838,2684354582,0,0,0,536870926,8,2684354574,0,2147483670,2147483678,8,8,8,8,8,
+8,8,8,8,8,8,8,8,8,8,8,1073741854,1073741846,0,0,0,0,0,2684354598,0,1610612750,1073741854,1073741846,0,1610612750,8,8,8,8,8,8,
+1073741854,1073741838,1073741838,1073741838,1073741838,1073741838,1073741838,1073741838,1073741838,1073741838,1073741838,1073741846,0,0,2147483670,22,0,0,1610612750,14,2147483678,2684354574,0,0,1610612750,8,8,8,8,8,8,
+2684354574,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612750,30,14,14,2147483678,8,8,2684354574,0,0,1610612750,8,8,8,8,8,8,
+30,22,0,0,0,0,0,0,0,0,2684354598,0,2147483670,14,2147483678,8,8,8,1073741854,1073741838,3221225502,2684354574,0,0,1610612750,8,8,8,8,8,8,
+8,2684354574,0,0,0,0,0,38,14,14,30,14,2147483678,8,8,8,8,8,2684354574,0,3221225494,1073741846,0,38,3221225486,3221225502,8,8,8,8,8,
+8,2684354574,0,2684354598,0,0,0,0,1610612750,8,8,8,8,8,8,8,8,8,2684354574,0,0,0,0,0,0,1610612750,8,8,8,8,8,
+2147483678,2684354574,0,3221225494,46,46,14,14,1073741838,1073741838,1073741838,1073741838,1073741838,1073741838,3221225502,8,8,8,2684354574,0,0,0,2147483670,14,14,2147483678,8,8,8,8,8,
+2147483678,2684354574,0,0,0,0,3221225494,1073741846,0,0,0,0,0,0,3221225494,1073741854,1073741838,1073741838,1073741846,0,0,2147483670,2147483678,8,8,8,8,8,8,8,8,
+2147483678,2684354574,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612774,0,0,0,0,2147483670,2147483678,8,8,8,8,8,8,8,8,8,
+2147483678,30,22,0,0,0,0,2684354598,0,2684354598,0,0,0,0,0,0,0,0,0,0,1610612750,8,8,8,8,8,8,8,8,8,8,
+2147483678,8,30,22,0,2147483670,14,2684354574,0,2684354606,0,0,0,0,2147483670,14,14,14,14,14,2147483678,8,8,8,8,8,8,8,8,8,8,
+8,8,8,30,14,2147483678,8,30,14,2684354574,0,0,0,0,1610612750,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+8,8,8,8,8,8,8,8,8,30,14,14,14,14,2147483678,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+</data>
+ </layer>
+ <objectgroup id="6" name="Line_Down">
+  <object id="98" name="Down" type="1" x="31.697" y="352.303"/>
+  <object id="99" name="Down" type="1" x="31.7" y="384.727"/>
+  <object id="100" name="Down" type="1" x="62" y="384.73"/>
+  <object id="101" name="Down" type="1" x="62" y="576.833"/>
+  <object id="102" name="Down" type="1" x="95.3333" y="576.83"/>
+  <object id="103" name="Down" type="1" x="95.33" y="608.583"/>
+  <object id="104" name="Down" type="1" x="126.667" y="608.58"/>
+  <object id="105" name="Down" type="1" x="126.67" y="639.333"/>
+  <object id="106" name="Down" type="1" x="162" y="639.333"/>
+  <object id="107" name="Down" type="1" x="162" y="608.667"/>
+  <object id="108" name="Down" type="1" x="224" y="608.667"/>
+  <object id="109" name="Down" type="1" x="224" y="578"/>
+  <object id="110" name="Down" type="1" x="256" y="578"/>
+  <object id="111" name="Down" type="1" x="256" y="640.667"/>
+  <object id="112" name="Down" type="1" x="288.667" y="640.67"/>
+  <object id="113" name="Down" type="1" x="288.67" y="578.667"/>
+  <object id="114" name="Down" type="1" x="320.667" y="578.67"/>
+  <object id="115" name="Down" type="1" x="320.67" y="672"/>
+  <object id="116" name="Down" type="1" x="448" y="672"/>
+  <object id="117" name="Down" type="1" x="448" y="607.333"/>
+  <object id="118" name="Down" type="1" x="641.333" y="607.33"/>
+  <object id="119" name="Down" type="1" x="641.33" y="544.667"/>
+  <object id="120" name="Down" type="1" x="671.333" y="544.67"/>
+  <object id="121" name="Down" type="1" x="671.333" y="512.667"/>
+  <object id="122" name="Down" type="1" x="705.333" y="512.67"/>
+  <object id="123" name="Down" type="1" x="705.33" y="480.667"/>
+  <object id="124" name="Down" type="1" x="799.333" y="480.67"/>
+  <object id="125" name="Down" type="1" x="799.33" y="448"/>
+  <object id="126" name="Down" type="2" x="94.6667" y="449.333"/>
+  <object id="127" name="Down" type="2" x="127.75" y="449.33"/>
+  <object id="128" name="Down" type="2" x="127.75" y="479.75"/>
+  <object id="129" name="Down" type="2" x="255.5" y="479.75"/>
+  <object id="130" name="Down" type="2" x="255.5" y="449"/>
+  <object id="131" name="Down" type="3" x="224.333" y="416"/>
+  <object id="132" name="Down" type="3" x="320.333" y="416"/>
+  <object id="133" name="Down" type="3" x="320.33" y="385"/>
+  <object id="134" name="Down" type="3" x="352" y="385"/>
+  <object id="135" name="Down" type="3" x="352" y="416.667"/>
+  <object id="136" name="Down" type="3" x="384.667" y="416.67"/>
+  <object id="137" name="Down" type="3" x="384.67" y="384.667"/>
+  <object id="138" name="Down" type="3" x="448" y="384.67"/>
+  <object id="139" name="Down" type="3" x="448" y="320.333"/>
+  <object id="140" name="Down" type="3" x="511" y="320.33"/>
+  <object id="141" name="Down" type="3" x="511" y="351.333"/>
+  <object id="142" name="Down" type="3" x="576.5" y="351.33"/>
+  <object id="143" name="Down" type="3" x="576.5" y="289.5"/>
+  <object id="144" name="Down" type="3" x="608.5" y="289.5"/>
+  <object id="145" name="Down" type="3" x="608.5" y="318.5"/>
+  <object id="146" name="Down" type="3" x="640" y="318.5"/>
+  <object id="147" name="Down" type="3" x="640" y="160"/>
+  <object id="148" name="Down" type="3" x="768" y="160"/>
+  <object id="149" name="Down" type="4" x="1.33333" y="193.333"/>
+  <object id="150" name="Down" type="4" x="255" y="193.33"/>
+  <object id="151" name="Down" type="4" x="255" y="223.5"/>
+  <object id="152" name="Down" type="4" x="289" y="223.5"/>
+  <object id="153" name="Down" type="4" x="289" y="193"/>
+  <object id="154" name="Down" type="4" x="349" y="193"/>
+  <object id="155" name="Down" type="4" x="349" y="223"/>
+  <object id="156" name="Down" type="4" x="383" y="223"/>
+  <object id="157" name="Down" type="4" x="383" y="193"/>
+  <object id="158" name="Down" type="4" x="448" y="193"/>
+  <object id="159" name="Down" type="4" x="448" y="226"/>
+  <object id="160" name="Down" type="4" x="483" y="226"/>
+  <object id="161" name="Down" type="4" x="483" y="193"/>
+  <object id="162" name="Down" type="4" x="543" y="193"/>
+  <object id="163" name="Down" type="4" x="543" y="223"/>
+  <object id="164" name="Down" type="4" x="578" y="223"/>
+  <object id="165" name="Down" type="4" x="578" y="194"/>
+  <object id="166" name="Down" type="4" x="608" y="194"/>
+  <object id="167" name="Down" type="4" x="608" y="252.667"/>
+  <object id="168" name="Down" type="5" x="738" y="65"/>
+  <object id="169" name="Down" type="5" x="991" y="65"/>
+  <object id="170" name="Down" type="5" x="991" y="35"/>
+  <object id="171" name="Down" type="6" x="737.273" y="416.364"/>
+  <object id="172" name="Down" type="6" x="767.818" y="416.36"/>
+  <object id="173" name="Down" type="6" x="767.82" y="256.727"/>
+  <object id="174" name="Down" type="6" x="800.364" y="256.73"/>
+  <object id="175" name="Down" type="6" x="800.36" y="96"/>
+ </objectgroup>
+ <objectgroup id="7" name="Line_Up">
+  <object id="176" name="Up" type="1" x="96.6818" y="449.364"/>
+  <object id="177" name="Up" type="1" x="96.68" y="540.455"/>
+  <object id="178" name="Up" type="1" x="188.167" y="540.45"/>
+  <object id="179" name="Up" type="1" x="188.17" y="563.5"/>
+  <object id="180" name="Up" type="1" x="255.333" y="563.5"/>
+  <object id="181" name="Up" type="1" x="255.33" y="544.167"/>
+  <object id="182" name="Up" type="1" x="447.667" y="544.17"/>
+  <object id="183" name="Up" type="1" x="447.67" y="571.167"/>
+  <object id="184" name="Up" type="1" x="481" y="571.17"/>
+  <object id="185" name="Up" type="1" x="481" y="599.833"/>
+  <object id="186" name="Up" type="1" x="511.667" y="599.83"/>
+  <object id="187" name="Up" type="1" x="511.67" y="571.167"/>
+  <object id="188" name="Up" type="1" x="606.833" y="571.17"/>
+  <object id="189" name="Up" type="1" x="606.83" y="447.5"/>
+  <object id="190" name="Up" type="1" x="640.5" y="447.5"/>
+  <object id="191" name="Up" type="1" x="640.5" y="480.5"/>
+  <object id="192" name="Up" type="1" x="703.333" y="480.5"/>
+  <object id="193" name="Up" type="1" x="703.33" y="352.333"/>
+  <object id="194" name="Up" type="1" x="735.833" y="352.33"/>
+  <object id="195" name="Up" type="1" x="735.83" y="241.667"/>
+  <object id="196" name="Up" type="1" x="767.333" y="241.67"/>
+  <object id="197" name="Up" type="1" x="767.33" y="162"/>
+  <object id="198" name="Up" type="2" x="31.697" y="381.212"/>
+  <object id="199" name="Up" type="2" x="384" y="381.21"/>
+  <object id="200" name="Up" type="2" x="384" y="346.25"/>
+  <object id="201" name="Up" type="2" x="416.25" y="346.25"/>
+  <object id="202" name="Up" type="2" x="416.25" y="313"/>
+  <object id="203" name="Up" type="2" x="544" y="313"/>
+  <object id="204" name="Up" type="2" x="544" y="279.75"/>
+  <object id="205" name="Up" type="2" x="607.25" y="279.75"/>
+  <object id="206" name="Up" type="3" x="2" y="185"/>
+  <object id="207" name="Up" type="3" x="192" y="185"/>
+  <object id="208" name="Up" type="3" x="192" y="151.333"/>
+  <object id="209" name="Up" type="3" x="352.667" y="151.33"/>
+  <object id="210" name="Up" type="3" x="352.67" y="182"/>
+  <object id="211" name="Up" type="3" x="478.667" y="182"/>
+  <object id="212" name="Up" type="3" x="478.667" y="148.667"/>
+  <object id="213" name="Up" type="3" x="512.667" y="148.67"/>
+  <object id="214" name="Up" type="3" x="512.67" y="183.333"/>
+  <object id="215" name="Up" type="3" x="576.667" y="183.33"/>
+  <object id="216" name="Up" type="3" x="576.67" y="128.667"/>
+  <object id="217" name="Up" type="4" x="543.58" y="143.333"/>
+  <object id="218" name="Up" type="4" x="543.583" y="121.417"/>
+  <object id="219" name="Up" type="4" x="701" y="121.42"/>
+  <object id="220" name="Up" type="4" x="701" y="62"/>
+  <object id="221" name="Up" type="4" x="991" y="62"/>
+  <object id="222" name="Up" type="5" x="735.67" y="416.583"/>
+  <object id="223" name="Up" type="5" x="735.666" y="462.58"/>
+  <object id="224" name="Up" type="5" x="800.337" y="462.58"/>
+  <object id="227" name="Up" type="6" x="736" y="64.5833"/>
+  <object id="228" name="Up" type="6" x="736" y="121.25"/>
+  <object id="229" name="Up" type="6" x="800" y="121.25"/>
+ </objectgroup>
+ <objectgroup id="4" name="Objects">
+  <object id="3" name="MCPos" type="1" x="65" y="543" width="32" height="32"/>
+  <object id="4" name="GrassPos" type="4" x="191.788" y="128.545" width="32" height="32"/>
+  <object id="5" name="GrassPos" type="4" x="224.318" y="128.682" width="32" height="32"/>
+  <object id="6" name="GrassPos" type="4" x="191.136" y="160.5" width="32" height="32"/>
+  <object id="7" name="GrassPos" type="4" x="223.5" y="161.136" width="32" height="32"/>
+  <object id="8" name="DiamonPos" type="5" x="255.818" y="192.727" width="32" height="32"/>
+  <object id="9" name="DiamonPos" type="5" x="256.352" y="161" width="32" height="32"/>
+  <object id="10" name="DiamonPos" type="5" x="288.352" y="160.273" width="32" height="32"/>
+  <object id="11" name="DiamonPos" type="5" x="288.534" y="128.091" width="32" height="32"/>
+  <object id="12" name="RockPos" type="6" x="257.045" y="128.818" width="32" height="32"/>
+  <object id="13" name="GrassPos" type="4" x="320.644" y="127.977" width="32" height="32"/>
+  <object id="14" name="GrassPos" type="4" x="319.992" y="159.932" width="32" height="32"/>
+  <object id="15" name="RockPos" type="6" x="384.463" y="160.727" width="32" height="32"/>
+  <object id="16" name="RockPos" type="6" x="479.736" y="128.545" width="32" height="32"/>
+  <object id="17" name="GrassPos" type="4" x="479.227" y="160.364" width="32" height="32"/>
+  <object id="18" name="GrassPos" type="4" x="511.591" y="161" width="32" height="32"/>
+  <object id="21" name="GrassPos" type="4" x="608.5" y="192.864" width="32" height="32"/>
+  <object id="23" name="GrassPos" type="4" x="767.106" y="128.015" width="32" height="32"/>
+  <object id="27" name="RockPos" type="6" x="735.963" y="257.545" width="32" height="32"/>
+  <object id="28" name="RockPos" type="6" x="735.963" y="289.045" width="32" height="32"/>
+  <object id="29" name="RockPos" type="6" x="576.963" y="257.045" width="32" height="32"/>
+  <object id="30" name="RockPos" type="6" x="543.963" y="320.545" width="32" height="32"/>
+  <object id="31" name="RockPos" type="6" x="448.463" y="288.545" width="32" height="32"/>
+  <object id="32" name="RockPos" type="6" x="256.463" y="352.545" width="32" height="32"/>
+  <object id="33" name="RockPos" type="6" x="192.13" y="352.879" width="32" height="32"/>
+  <object id="34" name="RockPos" type="6" x="192.13" y="385.212" width="32" height="32"/>
+  <object id="36" name="RockPos" type="6" x="255.797" y="512.879" width="32" height="32"/>
+  <object id="37" name="RockPos" type="6" x="320.463" y="513.545" width="32" height="32"/>
+  <object id="38" name="RockPos" type="6" x="352.13" y="513.212" width="32" height="32"/>
+  <object id="39" name="RockPos" type="6" x="383.797" y="513.212" width="32" height="32"/>
+  <object id="40" name="RockPos" type="6" x="416.13" y="513.212" width="32" height="32"/>
+  <object id="43" name="RockPos" type="6" x="609.463" y="416.212" width="32" height="32"/>
+  <object id="44" name="GrassPos" type="4" x="704.455" y="322" width="32" height="32"/>
+  <object id="45" name="GrassPos" type="4" x="255.621" y="383.833" width="32" height="32"/>
+  <object id="46" name="GrassPos" type="4" x="223.621" y="352.833" width="32" height="32"/>
+  <object id="47" name="GrassPos" type="4" x="223.621" y="383.833" width="32" height="32"/>
+  <object id="48" name="GrassPos" type="4" x="159.955" y="351.5" width="32" height="32"/>
+  <object id="49" name="GrassPos" type="4" x="127.621" y="384.167" width="32" height="32"/>
+  <object id="50" name="GrassPos" type="4" x="160.288" y="417.167" width="32" height="32"/>
+  <object id="51" name="GrassPos" type="4" x="192.955" y="416.167" width="32" height="32"/>
+  <object id="52" name="GrassPos" type="4" x="127.955" y="448.167" width="32" height="32"/>
+  <object id="53" name="GrassPos" type="4" x="128.455" y="606.5" width="32" height="32"/>
+  <object id="54" name="GrassPos" type="4" x="255.288" y="544.833" width="32" height="32"/>
+  <object id="55" name="GrassPos" type="4" x="319.622" y="545.667" width="32" height="32"/>
+  <object id="56" name="GrassPos" type="4" x="352.621" y="545.5" width="32" height="32"/>
+  <object id="57" name="GrassPos" type="4" x="385.621" y="545.167" width="32" height="32"/>
+  <object id="58" name="GrassPos" type="4" x="416.621" y="545.5" width="32" height="32"/>
+  <object id="59" name="GrassPos" type="4" x="543.621" y="576.833" width="32" height="32"/>
+  <object id="60" name="GrassPos" type="4" x="607.955" y="544.5" width="32" height="32"/>
+  <object id="61" name="GrassPos" type="4" x="607.621" y="512.833" width="32" height="32"/>
+  <object id="65" name="GrassPos" type="4" x="704.621" y="385.833" width="32" height="32"/>
+  <object id="68" name="DiamonPos" type="5" x="767.019" y="96.591" width="32" height="32"/>
+  <object id="69" name="DiamonPos" type="5" x="415.352" y="353.091" width="32" height="32"/>
+  <object id="70" name="DiamonPos" type="5" x="224.352" y="448.091" width="32" height="32"/>
+  <object id="71" name="DiamonPos" type="5" x="191.852" y="448.591" width="32" height="32"/>
+  <object id="72" name="DiamonPos" type="5" x="160.102" y="448.341" width="32" height="32"/>
+  <object id="73" name="DiamonPos" type="5" x="128.852" y="352.341" width="32" height="32"/>
+  <object id="74" name="DiamonPos" type="5" x="256.352" y="576.841" width="32" height="32"/>
+  <object id="75" name="DiamonPos" type="5" x="256.602" y="609.591" width="32" height="32"/>
+  <object id="77" name="DiamonPos" type="5" x="608.352" y="481.341" width="32" height="32"/>
+  <object id="78" name="DiamonPos" type="5" x="608.602" y="448.341" width="32" height="32"/>
+  <object id="79" name="DiamonPos" type="5" x="672.602" y="479.591" width="32" height="32"/>
+  <object id="80" name="DiamonPos" type="5" x="672.352" y="448.091" width="32" height="32"/>
+  <object id="81" name="DiamonPos" type="5" x="736.852" y="385.091" width="32" height="32"/>
+  <object id="82" name="DiamonPos" type="5" x="735.852" y="351.091" width="32" height="32"/>
+  <object id="83" name="DiamonPos" type="5" x="736.852" y="321.091" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="9" name="Spiders">
+  <object id="237" name="SpiderPos" type="2" x="402.25" y="556.313" width="32" height="32"/>
+  <object id="238" name="SpiderPos" type="2" x="338" y="555.563" width="32" height="32"/>
+  <object id="243" name="SpiderPos" type="2" x="737" y="223.188" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="9" name="Fire">
+  <object id="234" name="fire" type="1" x="587.333" y="107.333"/>
+  <object id="235" name="fire" type="1" x="587" y="156.167"/>
+  <object id="236" name="fire" type="1" x="762.5" y="155"/>
+  <object id="237" name="fire" type="1" x="761.5" y="101"/>
+  <object id="238" name="fire" type="2" x="82" y="361"/>
+  <object id="239" name="fire" type="2" x="78" y="409"/>
+  <object id="240" name="fire" type="2" x="311" y="409"/>
+  <object id="241" name="fire" type="2" x="309" y="358"/>
+  <object id="242" name="fire" type="3" x="110" y="524.167"/>
+  <object id="243" name="fire" type="3" x="108.667" y="598"/>
+  <object id="244" name="fire" type="3" x="174.167" y="600.167"/>
+  <object id="245" name="fire" type="3" x="174.5" y="527"/>
+  <object id="250" name="blood" type="20" x="212.333" y="597.667"/>
+  <object id="251" name="blood" type="21" x="416.667" y="373.333"/>
+ </objectgroup>
+</map>
